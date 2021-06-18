@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>動画時間調整実装</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<h1>動画時間調整実装</h1>
+
+<iframe name="player" width="560" height="315" src="https://www.youtube.com/embed/VzVVvusiTww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  target="player"></iframe>
+<div class="time-adjust-button">
+<a href="https://www.youtube.com/embed/VzVVvusiTww?autoplay=1&start=90" target="player" onclick="scroll()">1分30秒から再生</a>
+<a href="https://www.youtube.com/embed/VzVVvusiTww?autoplay=1&start=150" target="player" onclick="scroll()">2分30秒から再生</a>
+<a href="https://www.youtube.com/embed/VzVVvusiTww?autoplay=1&start=240" target="player" onclick="scroll()">4分00秒から再生</a>
+</div>
+
+<script type="text/javascript" language="javascript">
+    function scroll(){
+      window.scrollTo(0,50);
+    }
+    // -->
+    </script>
+
+</body>
+</html>
