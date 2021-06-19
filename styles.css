@@ -1,3 +1,17 @@
 body{
     text-align: center;
 }
+
+.movie-scroll{
+    display: block;
+}
+.movie-scroll img{
+    max-width: 1200px;
+    max-height: 800px;
+    overflow-x: scroll;
+  
+}
+
+.mobile-scroll {width: 100%; overflow-x: scroll;}
+.table-width {width: 900px; border: solid 1px #000000;}
+.cell-width {width: 300px;}
